@@ -1,4 +1,3 @@
-use CIS;
 create table employee ( emp_id int, emp_name varchar(30), manager_id int);
 select * from employee;
 insert into employee values (1, 'Boss', 1), 
